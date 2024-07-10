@@ -10,13 +10,10 @@ Utilizing a combination of EDA techniques and machine learning algorithms, we ha
 
 Data preprocessing steps include:
 1. Stop words removal
-2. Lemmatization/Stemming
-3. Vectorization using TF-IDF
-## Models Utilized
-1. Logistic Regression
-2. Random Forest Regressor
-3. LinearSVC
-4. Multinomial Naive Bayes
+2. Lemmatization i.e spliting words into ins similar root words
+3. Vectorization using TF-IDF used to give numeric values to words based on their similarity
+## Model Utilized
+Linear SVC
 ## Libraries Used
 
 1. numpy: For efficient numerical operations
@@ -25,11 +22,8 @@ Data preprocessing steps include:
 4. matplotlib: For comprehensive data visualization
 5. Sklearn: For implementing machine learning algorithms
 ## Results
-1. Logistic Regression : 69%
-2. Random Forest Regressor : 42%
-3. LinearSVC : 94%
-4. Multinomial Naive Bayes : 46%
+94% Accuracy
 
 ## Conclusion
-Through rigorous analysis and experimentation, it has been determined that LinearSVC model exhibit the highest predictive accuracy for Movie Genre Classificaton. 
+Through LinearSVC model high predictive accuracy has been achieved for Movie Genre Classificaton. 
 
