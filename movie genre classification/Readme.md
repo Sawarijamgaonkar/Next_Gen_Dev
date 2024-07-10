@@ -2,7 +2,7 @@
 
 ## Goal
 
-This project aims to accurately predict the genre(s) of a movie , improving the accuracy of movie recommendations by understanding user preferences based on genres.
+This project aims to predict the genre of movie accurately.
 ## Methodology
 
 Utilizing a combination of EDA techniques and machine learning algorithms, we have meticulously analyzed data to discern patterns and correlations associated with the description of each movie . Key steps include data cleaning, feature engineering, and insightful visualization to extract meaningful insights.
